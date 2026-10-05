@@ -1,157 +1,107 @@
-# Awesome-Conversational-Bot-Builder
-
-# Awesome-Conversational-Bot-Builder
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-
-*Focused on Visual Flow Builders, NLU Engines & Multi-Channel Bot Development*
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Conversational Bot Builders**. These tools help developers and business users design, build, and deploy intelligent chatbots and voice assistants across websites, messaging apps, and contact centers.
-
-
-
-**Examples** include Microsoft Power Virtual Agents, Google Dialogflow, Amazon Lex, Rasa, Botpress, Voiceflow, Cognigy, Yellow.ai, Kore.ai, and Ada (the category leaders).
-
-
-
-**Open-source emphasis**: The open-source conversational bot builder ecosystem is **mature and production-proven**. **Rasa** leads enterprise-grade frameworks with NLU and dialogue management, **Botpress** provides a visual drag-and-drop builder with managed NLU, and **Tock** offers a complete open-source conversational AI platform with multi-channel connectors . **Tiledesk** positions itself as an open-source alternative to Voiceflow, Botpress, and Landbot for multichannel workflow automation .
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## 📖 Table of Contents
-
-
-
-- [☁️ SaaS/Hosted Platforms](#-saas-hosted-platforms)
-
-- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
-
-- [🤝 How to Contribute](#-how-to-contribute)
-
-- [⚠️ Disclaimer](#-disclaimer)
-
-
-
-## ☁️ SaaS/Hosted Platforms
-
-
-
-> **📊 Market Context**: The global conversational AI market is estimated at **~$14.79B in 2025**, growing toward **~$82.46B by 2034** at a **~21% CAGR**. The sector is **moderately fragmented** — Google, Microsoft, AWS, IBM, and Cognigy are top players. **Pricing models vary dramatically**: Cognigy starts at **~$2,500/month**, Ada at **$33,000/year** for 60,000 conversations, and Kore.ai offers **5,000 free sessions** per account. No single vendor holds a winner-take-all position; enterprises typically run multi-vendor stacks.
-
-
-
-| Platform | Description | Pricing (Starting Tier) | Free Tier Limits | Company Size |
-
-|----------|-------------|------------------------|------------------|--------------|
-
-| **[Microsoft Power Virtual Agents](https://powervirtualagents.microsoft.com/)** | **Microsoft's low-code bot builder within the Power Platform.** Integrated with Teams, Dynamics 365, and Azure services. | **$200/month** for 25,000 messages (tenant packs) | **Free trial**: 30-day trial with full platform access | **~$281B revenue (Microsoft FY2025)** |
-
-| **[Google Dialogflow](https://cloud.google.com/dialogflow)** | Google's conversational AI platform with NLU, intent recognition, and entity extraction. **Dialogflow CX** for advanced flow-based design. | **Dialogflow ES**: Free tier; **$0.002 per text query** after free tier. **Dialogflow CX**: **$0.007 per text query** | **Dialogflow ES free tier**: **1,000 text queries/day**. **CX free trial**: $600 GCP credits for 90 days | **~$350B revenue (Alphabet FY2025)** |
-
-| **[Amazon Lex](https://aws.amazon.com/lex/)** | AWS conversational AI using the same deep learning as Alexa. Intent recognition, slot filling, multi-turn dialogue. | **V2**: **$0.00075 per text request**; **$0.004 per audio request** | **AWS Free Tier**: **10,000 text requests/month** + **5,000 speech requests/month** for 12 months | **~$638B revenue (Amazon FY2025)** |
-
-| **[Cognigy](https://www.cognigy.com/)** | Enterprise conversational AI platform with NLU, dialogue management, and omnichannel deployment. | **~$2,500/month** (starting) | **Free trial**: Full platform access, no credit card required | **Private (~$100M+ raised est.)** |
-
-| **[Yellow.ai](https://yellow.ai/)** | Conversational AI for customer support and employee experience. NLU, voice, multi-channel. | **Premium**: Custom pricing (sales-led) | **Freemium plan**: **5,000 monthly bot conversations**, FAQ module, 2 channels | **~$102M raised, ~$1B valuation est.** |
-
-| **[Kore.ai](https://kore.ai/)** | Enterprise conversational AI with virtual assistants, NLU, multi-channel deployment. | **Pay-as-you-go**: Reload from **$100** | **Free sessions**: **5,000 sessions** per account (up to 5 bots) | **~$150M+ raised, ~$1B valuation est.** |
-
-| **[Ada](https://www.ada.cx/)** | Enterprise AI customer service platform. Facilitating over 4 billion automated interactions. | **Enterprise-only**. AWS Marketplace: **$33,000/year** for 60,000 conversations | **None** — no free tier or free trial | **Private (~$200M+ raised est.)** |
-
-
-
-## 🔓 Open-Source GitHub Projects
-
-
-
-Sorted by star count (descending). Star badge links to each repo's stargazers page.
-
-
-
-| Repo | Description | Stars |
-
-|---|---|---|
-
-| **[Rasa](https://github.com/RasaHQ/rasa)** — **The leading open-source conversational AI framework for enterprise.** NLU pipelines, dialogue management, custom Python actions, multi-channel (Slack, Telegram, Messenger, Twilio). Used by millions of developers, from small teams through enterprise-wide applications . Apache-2.0. | [![Stars](https://img.shields.io/github/stars/RasaHQ/rasa?style=social&color=white)](https://github.com/RasaHQ/rasa/stargazers) | ~19,000 |
-
-| **[Botpress](https://github.com/botpress/botpress)** — **First open-source framework for AI digital assistants.** Visual drag-and-drop builder, managed NLU, multi-lingual support, HITL handoff. Lightweight with zero external dependencies, deploy anywhere . AGPLv3. | [![Stars](https://img.shields.io/github/stars/botpress/botpress?style=social&color=white)](https://github.com/botpress/botpress/stargazers) | ~13,500 |
-
-| **[Tock](https://github.com/theopenconversationkit/tock)** — **Open-source conversational AI toolkit.** Complete platform with Tock Studio UI for building stories and analytics, Conversational DSL for Kotlin/Node.js/Python/REST API, built-in connectors for Messenger, WhatsApp, Google Assistant, Alexa, Twitter, and more. Deploy anywhere in cloud or on-premise with Docker . | [![Stars](https://img.shields.io/github/stars/theopenconversationkit/tock?style=social&color=white)](https://github.com/theopenconversationkit/tock/stargazers) | ~484 |
-
-| **[Tiledesk Chatbot Engine](https://github.com/Tiledesk/tiledesk-chatbot)** — **Open-source alternative to Voiceflow, Botpress, and Landbot.** Node.js-based framework for multichannel workflow automation. Works with Tiledesk Design Studio for visual chatbot design. MIT licensed . | [![Stars](https://img.shields.io/github/stars/Tiledesk/tiledesk-chatbot?style=social&color=white)](https://github.com/Tiledesk/tiledesk-chatbot/stargazers) | ~37 |
-
-| **[Botkit](https://github.com/howdyai/botkit)** — **Open-source developer tool for building chat bots and custom integrations.** `hears()`, `ask()`, `reply()` event handlers, middleware, platform adapters for Microsoft Bot Framework, Slack, Facebook Messenger, Telegram, Webex. Part of the Microsoft Bot Framework . MIT. | [![Stars](https://img.shields.io/github/stars/howdyai/botkit?style=social&color=white)](https://github.com/howdyai/botkit/stargazers) | ~11,200 |
-
-| **[BotMan](https://github.com/botman/botman)** — **The most popular open-source PHP chatbot framework.** Framework-agnostic (Laravel, Symfony), write once deploy everywhere (Slack, Telegram, Messenger, WeChat, Alexa). MIT . | [![Stars](https://img.shields.io/github/stars/botman/botman?style=social&color=white)](https://github.com/botman/botman/stargazers) | ~5,800 |
-
-| **[Kairon](https://github.com/digiteinfotech/kairon)** — **Conversational AI platform to build effective Proactive Digital Assistants using Visual LLM Chaining.** Designed for enterprise with focus on security and integration . | [![Stars](https://img.shields.io/github/stars/digiteinfotech/kairon?style=social&color=white)](https://github.com/digiteinfotech/kairon/stargazers) | ~248 |
-
-
-
-**Additional open-source options worth exploring:**
-
-
-
-| Repo | Description |
-
-|---|---|
-
-| **[KnowBase AI](https://github.com/SamurAIGPT/ai-knowledge-base)** — Production-ready open-source AI knowledge base & custom chatbot builder. Next.js SaaS with RAG, document upload, URL scraping, Q&A training, citations, and embeddable chatbot widgets. Free alternative to Chatbase, CustomGPT, Botpress, SiteGPT . |
-
-| **[rasa-admin](https://github.com/nesterapp/rasa-admin)** — Open-source alternative for Rasa-X. Admin interface for managing Rasa deployments . |
-
-| **[EDDI](https://github.com/labsai/EDDI)** — Prompt & Conversation Management Middleware for Conversational AI APIs including OpenAI ChatGPT, Hugging Face, Anthropic Claude, Google Gemini, Ollama. Lean, restful, scalable, cloud-native. Java/Quarkus . |
-
-| **[CopilotKit](https://github.com/CopilotKit/CopilotKit)** — In-app chatbot capabilities and intelligent text generation for React developers. Open-sourced . |
-
-
-
-## 🤝 How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## ⚠️ Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Conversational bot builders handle sensitive customer conversations and potentially PII; ensure compliance with GDPR, CCPA, and applicable data protection regulations.
-
-- **Open-source reality**: The open-source ecosystem for conversational bot builders is **mature and production-proven**. **Rasa** is the leading enterprise-grade framework used by millions of developers . **Botpress** provides a visual drag-and-drop builder with zero external dependencies . **Tock** offers a complete platform with multi-channel connectors and Docker deployment . **Tiledesk** positions itself as an open-source alternative to Voiceflow and Botpress for multichannel workflow automation . However, **commercial platforms** (Power Virtual Agents, Dialogflow, Cognigy, Kore.ai) provide **managed infrastructure, enterprise SLAs, and integrated omnichannel deployment** that open-source alternatives require significant operational investment to match. The open-source path is **genuinely viable** for organizations with strong development capacity seeking full control over their conversational AI stack.
-
-- **Pricing caveat**: All pricing figures above are **verified against cited search results** but may change without notice. **Ada has no free tier** and **Cognigy starts at ~$2,500/month**. Always request a formal quote for accurate budgeting.
-
-
+# 🤖 Awesome Conversational Bot Builder
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Conversational Bot Builder Banner" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&oogoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Conversational-Bot-Builder/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Conversational-Bot-Builder?style=social" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Conversational-Bot-Builder/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Conversational-Bot-Builder?style=social" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+> **⚡ Curated Directory of SaaS Bot Builders & Open-Source Conversational AI Frameworks**  
+> *Focused on Visual Flow Builders, NLU Engines, Dialogue Management, LLM Chaining & Multi-Channel Bot Deployment.*
+
+**📅 Last updated: October 2026**
 
 ---
 
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Conversational Bot Builders**. These tools empower developers, enterprise architects, and CX teams to design, build, test, and deploy intelligent AI chatbots and voice assistants across web, mobile, messaging platforms, and contact centers.
 
+---
 
-**Made for conversational AI engineers, chatbot developers, customer experience teams, and enterprise architects.**
+## 📖 Table of Contents
 
-Let's make conversational bot builders more open, transparent, and accessible.
+- [☁️ SaaS / Hosted Conversational AI Platforms](#-saas--hosted-conversational-ai-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📊 Star History](#-star-history)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+
+---
+
+## ☁️ SaaS / Hosted Conversational AI Platforms
+
+> **📊 Market Size & Sector Structure**: The global conversational AI market size is estimated at **~$14.79B in 2025** and is projected to expand toward **~$82.46B by 2034** at a CAGR of **~21%**. The market structure is **moderately fragmented**: cloud hyper-scalers (Amazon, Google, Microsoft) co-exist alongside specialized enterprise suites (Cognigy, Kore.ai, Ada, Yellow.ai). No single vendor holds a winner-take-all monopoly, and enterprise architectures typically deploy multi-vendor stacks.
+
+Platforms are sorted by enterprise size / revenue & valuation in descending order.
+
+| Platform | Description | Pricing (Starting Tier) | Free Tier / Trial Limits | Company Size & Scale (Descending) |
+|---|---|---|---|---|
+| **[Amazon Lex](https://aws.amazon.com/lex/)** ☁️ | AWS conversational AI powered by Alexa deep learning. Features intent recognition, slot filling, and multi-turn dialogue. | **$0.00075 / text request** ($0.004 / audio request) | **AWS Free Tier**: 10,000 text requests + 5,000 speech requests/month for 12 months | **~$638B revenue** (Amazon FY2025) |
+| **[Google Dialogflow](https://cloud.google.com/dialogflow)** 🔍 | Google Cloud's NLU platform with intent & entity parsing. Includes **Dialogflow CX** for advanced flowchart design. | **Dialogflow ES**: $0.002 / text query; **Dialogflow CX**: $0.007 / text query | **Dialogflow ES**: 1,000 text queries/day free; **CX**: $600 GCP trial credits for 90 days | **~$350B revenue** (Alphabet FY2025) |
+| **[Microsoft Power Virtual Agents](https://powervirtualagents.microsoft.com/)** 🟦 | Low-code conversational bot builder within Microsoft Power Platform. Deep integration with Teams & Azure. | **$200 / month** for 25,000 messages (tenant packs) | **30-Day Free Trial** with full platform capabilities | **~$281B revenue** (Microsoft FY2025) |
+| **[Yellow.ai](https://yellow.ai/)** 🟡 | Enterprise AI agents for customer support & CX with NLU, voice bots, and multi-channel automation. | **$99 / month** (Growth tier starting price) | **Freemium Plan**: 5,000 monthly bot conversations, FAQ engine, 2 channels | **~$1B valuation** (~$102M raised) |
+| **[Kore.ai](https://kore.ai/)** 🤖 | Enterprise virtual assistant platform featuring hybrid NLU, LLM orchestration, and contact center automation. | **$100 minimum reload** (Pay-as-you-go payg model) | **5,000 Free Sessions** per account across up to 5 bots | **~$1B valuation** (~$150M+ raised) |
+| **[Ada](https://www.ada.cx/)** 💬 | Enterprise AI customer service platform automating over 4 billion customer interactions globally. | **$33,000 / year** (AWS Marketplace entry point for 60,000 conversations) | **14-Day Enterprise Trial** (Available upon sales demo approval) | **~$200M+ raised** (Valued at ~$1.2B) |
+| **[Cognigy](https://www.cognigy.com/)** 🏢 | Enterprise AI agent platform providing omnichannel contact center automation, voicebots, and NLU flow builders. | **~$2,500 / month** (Starting enterprise package) | **14-Day Free Platform Trial** (No credit card required) | **~$100M+ raised** (Enterprise growth stage) |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Sorted by GitHub star count in descending order.
+
+| Repo | Description | Stars |
+|---|---|---|
+| **[Rasa](https://github.com/RasaHQ/rasa)** 🐍 | Enterprise open-source conversational AI framework. Features NLU pipelines, dialogue management, custom Python actions, and multi-channel connectors (Slack, Telegram, Twilio). Apache-2.0. | [![Stars](https://img.shields.io/github/stars/RasaHQ/rasa?style=social&color=white)](https://github.com/RasaHQ/rasa/stargazers) |
+| **[Botpress](https://github.com/botpress/botpress)** ⚡ | Open-source framework for building AI digital assistants with visual drag-and-drop flow builder, managed NLU, and human-in-the-loop handoff. AGPLv3. | [![Stars](https://img.shields.io/github/stars/botpress/botpress?style=social&color=white)](https://github.com/botpress/botpress/stargazers) |
+| **[Botkit](https://github.com/howdyai/botkit)** 🛠️ | Developer toolkit for building chat bots and custom integrations with event handlers (`hears()`, `ask()`, `reply()`), middleware, and platform adapters. Part of Microsoft Bot Framework. MIT. | [![Stars](https://img.shields.io/github/stars/howdyai/botkit?style=social&color=white)](https://github.com/howdyai/botkit/stargazers) |
+| **[CopilotKit](https://github.com/CopilotKit/CopilotKit)** 💡 | Open-source React framework to build in-app AI chatbots, copilot assistants, and generative text UI components. MIT. | [![Stars](https://img.shields.io/github/stars/CopilotKit/CopilotKit?style=social&color=white)](https://github.com/CopilotKit/CopilotKit/stargazers) |
+| **[BotMan](https://github.com/botman/botman)** 🐘 | The most popular open-source PHP chatbot framework. Framework-agnostic (Laravel, Symfony) with multi-channel adapters (Slack, Telegram, Messenger, Alexa). MIT. | [![Stars](https://img.shields.io/github/stars/botman/botman?style=social&color=white)](https://github.com/botman/botman/stargazers) |
+| **[Tock](https://github.com/theopenconversationkit/tock)** 📦 | Open-source conversational AI toolkit with Tock Studio UI, conversational DSL for Kotlin/Node.js/Python, and built-in connectors (Messenger, WhatsApp, Alexa, Docker). Apache-2.0. | [![Stars](https://img.shields.io/github/stars/theopenconversationkit/tock?style=social&color=white)](https://github.com/theopenconversationkit/tock/stargazers) |
+| **[Kairon](https://github.com/digiteinfotech/kairon)** 🔮 | Conversational AI platform to build proactive digital assistants using visual LLM chaining, enterprise role-based security, and intent analytics. Apache-2.0. | [![Stars](https://img.shields.io/github/stars/digiteinfotech/kairon?style=social&color=white)](https://github.com/digiteinfotech/kairon/stargazers) |
+| **[KnowBase AI](https://github.com/SamurAIGPT/ai-knowledge-base)** 🧠 | Open-source AI knowledge base & custom chatbot builder built on Next.js with RAG, document parsing, website scraping, and embeddable chat widgets. Apache-2.0. | [![Stars](https://img.shields.io/github/stars/SamurAIGPT/ai-knowledge-base?style=social&color=white)](https://github.com/SamurAIGPT/ai-knowledge-base/stargazers) |
+| **[EDDI](https://github.com/labsai/EDDI)** ⚙️ | Prompt & conversation management middleware for AI APIs (OpenAI, Anthropic Claude, Google Gemini, Ollama). Cloud-native RESTful server in Java/Quarkus. Apache-2.0. | [![Stars](https://img.shields.io/github/stars/labsai/EDDI?style=social&color=white)](https://github.com/labsai/EDDI/stargazers) |
+| **[Tiledesk Chatbot Engine](https://github.com/Tiledesk/tiledesk-chatbot)** 🎨 | Open-source multichannel chatbot framework and alternative to Voiceflow & Landbot. Node.js backend integrating with Tiledesk Design Studio. MIT. | [![Stars](https://img.shields.io/github/stars/Tiledesk/tiledesk-chatbot?style=social&color=white)](https://github.com/Tiledesk/tiledesk-chatbot/stargazers) |
+| **[rasa-admin](https://github.com/nesterapp/rasa-admin)** 🎛️ | Open-source administrative UI dashboard for managing Rasa deployments, intent training data, and dialogue logs. MIT. | [![Stars](https://img.shields.io/github/stars/nesterapp/rasa-admin?style=social&color=white)](https://github.com/nesterapp/rasa-admin/stargazers) |
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Please follow these guidelines when submitting a pull request:
+
+1. Fork the repository.
+2. Edit `README.md` to add your suggested bot builder platform or open-source tool.
+3. Ensure entries adhere to the table structure, including verified pricing/star counts and explicit free tier or trial limits.
+4. Submit a Pull Request with a clear description of the project.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this repository helpful for your projects or research, consider supporting the maintainer!
+
+- ⭐ **Star** this repository to increase visibility.
+- 🔀 **Fork** it to keep a copy and contribute back.
+- 📢 **Share** it on Twitter/X, LinkedIn, or developer forums.
+- ☕ **Buy Me a Coffee / Sponsor**: Support ongoing maintenance via [GitHub Sponsors](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📊 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Conversational-Bot-Builder&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Conversational-Bot-Builder&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This list is **community-curated** for educational and research purposes.
+- Conversational AI tools process sensitive user text and voice data; ensure full compliance with GDPR, CCPA, and enterprise privacy standards.
+- Pricing figures and free tier specifications were verified at the time of writing but may change over time.
