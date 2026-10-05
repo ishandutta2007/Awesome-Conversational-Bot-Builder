@@ -54,9 +54,9 @@ Platforms are sorted by enterprise size / revenue & valuation in descending orde
 
 ## 🔓 Open-Source GitHub Projects
 
-Sorted by GitHub star count in descending order.
+Sorted by GitHub Stars_Count in descending order.
 
-| Repo | Description | Stars |
+| Repo | Description | GitHub_Stars |
 |---|---|---|
 | **[Rasa](https://github.com/RasaHQ/rasa)** 🐍 | Enterprise open-source conversational AI framework. Features NLU pipelines, dialogue management, custom Python actions, and multi-channel connectors (Slack, Telegram, Twilio). Apache-2.0. | [![Stars](https://img.shields.io/github/stars/RasaHQ/rasa?style=social&color=white)](https://github.com/RasaHQ/rasa/stargazers) |
 | **[Botpress](https://github.com/botpress/botpress)** ⚡ | Open-source framework for building AI digital assistants with visual drag-and-drop flow builder, managed NLU, and human-in-the-loop handoff. AGPLv3. | [![Stars](https://img.shields.io/github/stars/botpress/botpress?style=social&color=white)](https://github.com/botpress/botpress/stargazers) |
@@ -78,7 +78,7 @@ Contributions are warmly welcomed! Please follow these guidelines when submittin
 
 1. Fork the repository.
 2. Edit `README.md` to add your suggested bot builder platform or open-source tool.
-3. Ensure entries adhere to the table structure, including verified pricing/star counts and explicit free tier or trial limits.
+3. Ensure entries adhere to the table structure, including verified pricing/Stars_Counts and explicit free tier or trial limits.
 4. Submit a Pull Request with a clear description of the project.
 
 ---
